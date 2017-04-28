@@ -4,7 +4,7 @@ php:
    - "80:80"
    - "443:443"
   volumes:
-   - ./www:/var/www/html
+   - /home/www:/var/www/html
   links:
    - db
 db:
