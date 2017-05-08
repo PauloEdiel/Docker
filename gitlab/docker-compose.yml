@@ -1,0 +1,16 @@
+web:
+  image: gitlab/gitlab-ce:8.10.6-ce.0
+  container_name: gitlab  
+  restart: always
+  hostname: gitlab
+  environment:
+    GITLAB_OMNIBUS_CONFIG: |
+      external_url 'http://127.0.0.1:8050'
+      gitlab_rails['gitlab_shell_ssh_port'] = 2222
+  ports:
+    - "8050:8050"
+    - "2222:22"
+  volumes:
+    - './gitlab/config:/etc/gitlab'
+    - './gitlab/logs:/var/log/gitlab'
+    - './gitlab/data:/var/opt/gitlab'

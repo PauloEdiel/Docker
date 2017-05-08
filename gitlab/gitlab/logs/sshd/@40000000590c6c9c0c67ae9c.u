@@ -1,0 +1,14 @@
+2017-05-04_18:34:43.24195 Server listening on 0.0.0.0 port 22.
+2017-05-04_18:34:43.24206 Server listening on :: port 22.
+2017-05-04_19:01:46.87266 User root from 172.17.0.1 not allowed because not listed in AllowUsers
+2017-05-04_19:01:46.87338 input_userauth_request: invalid user root [preauth]
+2017-05-04_19:01:46.88231 Connection closed by 172.17.0.1 port 54942 [preauth]
+2017-05-04_19:01:49.39654 User root from 172.17.0.1 not allowed because not listed in AllowUsers
+2017-05-04_19:01:49.39675 input_userauth_request: invalid user root [preauth]
+2017-05-04_19:01:49.40008 Connection closed by 172.17.0.1 port 54946 [preauth]
+2017-05-04_19:01:51.38064 User root from 172.17.0.1 not allowed because not listed in AllowUsers
+2017-05-04_19:01:51.38086 input_userauth_request: invalid user root [preauth]
+2017-05-04_19:01:51.38403 Connection closed by 172.17.0.1 port 54950 [preauth]
+2017-05-04_19:01:54.53674 User root from 172.17.0.1 not allowed because not listed in AllowUsers
+2017-05-04_19:01:54.53693 input_userauth_request: invalid user root [preauth]
+2017-05-04_19:01:54.53942 Connection closed by 172.17.0.1 port 54956 [preauth]

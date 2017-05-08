@@ -1,0 +1,16 @@
+/opt/gitlab/embedded/service/gem/ruby/2.1.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:206:in `pid=': Already running on PID:269 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale) (ArgumentError)
+	from /opt/gitlab/embedded/service/gem/ruby/2.1.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:135:in `start'
+	from /opt/gitlab/embedded/service/gem/ruby/2.1.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+	from /opt/gitlab/embedded/service/gem/ruby/2.1.0/bin/unicorn:23:in `load'
+	from /opt/gitlab/embedded/service/gem/ruby/2.1.0/bin/unicorn:23:in `<main>'
+I, [2017-05-08T11:32:47.005318 #289]  INFO -- : Refreshing Gem list
+I, [2017-05-08T11:33:23.077341 #289]  INFO -- : listening on addr=127.0.0.1:8080 fd=15
+I, [2017-05-08T11:33:23.077895 #289]  INFO -- : unlinking existing socket=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket
+I, [2017-05-08T11:33:23.106532 #289]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=16
+I, [2017-05-08T11:33:23.121326 #295]  INFO -- : worker=0 spawned pid=295
+I, [2017-05-08T11:33:23.122328 #295]  INFO -- : worker=0 ready
+I, [2017-05-08T11:33:23.127862 #298]  INFO -- : worker=1 spawned pid=298
+I, [2017-05-08T11:33:23.130780 #298]  INFO -- : worker=1 ready
+I, [2017-05-08T11:33:23.132565 #289]  INFO -- : master process ready
+I, [2017-05-08T11:33:23.133786 #301]  INFO -- : worker=2 spawned pid=301
+I, [2017-05-08T11:33:23.134115 #301]  INFO -- : worker=2 ready

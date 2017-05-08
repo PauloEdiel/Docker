@@ -1,0 +1,10 @@
+2017-05-05_12:14:11.10157 Server listening on 0.0.0.0 port 22.
+2017-05-05_12:14:11.10166 Server listening on :: port 22.
+2017-05-05_18:08:18.05830 Connection closed by 172.17.0.1 port 37138 [preauth]
+2017-05-05_18:24:07.22254 Connection closed by 172.17.0.1 port 37830 [preauth]
+2017-05-05_18:28:52.69792 Connection closed by 172.17.0.1 port 38010 [preauth]
+2017-05-05_18:29:18.89051 Connection closed by 172.17.0.1 port 38020 [preauth]
+2017-05-05_18:32:04.60262 Connection closed by 172.17.0.1 port 38110 [preauth]
+2017-05-05_18:37:06.14003 Invalid user pauloeediel from 172.17.0.1
+2017-05-05_18:37:06.17410 input_userauth_request: invalid user pauloeediel [preauth]
+2017-05-05_18:37:06.17609 Connection closed by 172.17.0.1 port 38270 [preauth]
