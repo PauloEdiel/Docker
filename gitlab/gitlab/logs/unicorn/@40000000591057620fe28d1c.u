@@ -1,5 +1,0 @@
-2017-05-08_11:32:03.41684 Received TERM from runit, sending to process group (-PID)
-2017-05-08_11:32:03.43710 Terminated
-2017-05-08_11:32:03.43809 forwarding TERM to unicorn master 269
-2017-05-08_11:32:03.43826 forwarding CONT to unicorn master 269
-2017-05-08_11:32:03.46147 wrapper for unicorn master 269 exiting
